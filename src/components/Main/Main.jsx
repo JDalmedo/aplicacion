@@ -6,7 +6,12 @@ const Main = () => {
     return(
         <>
             <div className='main'>
-                <h2>Heyyyyyyyyyyyyy</h2>
+            <img src="public/indexado.png" alt="fondo_indexado"></img>
+            <img src="public/indexado.png" alt="fondo_indexado"></img>
+            <img src="public/indexado.png" alt="fondo_indexado"></img>
+            <img src="public/indexado.png" alt="fondo_indexado"></img>
+            <img src="public/indexado.png" alt="fondo_indexado"></img>
+            <img src="public/indexado.png" alt="fondo_indexado"></img>
             </div>
         </>
     );
