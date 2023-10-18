@@ -3,9 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    background-color: darksalmon;
+    align-items: center;
+    background-color: rgb(8, 8, 8);
+    
 }
+@media (max-width: 600px){
+    body {
+        width: 80%;
+    }
+}
+
+

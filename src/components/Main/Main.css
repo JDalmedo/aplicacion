@@ -1,6 +1,16 @@
-main{
-    display: grid;
-    grid-row: auto;
-    height: calc(100vh - 15px -25px);
+.main ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
 }
 
+li{
+    list-style-type: none;
+}
+p{
+    color: aliceblue;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
