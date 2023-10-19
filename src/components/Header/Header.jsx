@@ -4,9 +4,17 @@ const Header = () => {
 
     return(
         <>
-            <div className='header'>
-                <h1>Lo que me gusta y más...</h1>
-            </div>
+            <div className='container2'>
+
+                <div className='h1header'>
+                    <h1>Lo que me gusta y más...</h1>
+                </div>
+                <div className='nav'>
+                    <a href='null' className='home'>Inicio</a>
+                    <a href='null' className='contact'>Contacto</a>
+                    <a href='null' className='about'>Más...</a>
+                </div> 
+            </div>       
         
         </>
     );
