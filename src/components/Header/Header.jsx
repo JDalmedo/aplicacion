@@ -1,22 +1,25 @@
 import './Header.css'
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
 
     return(
-        <>
-            <div className='container2'>
-
-                <div className='h1header'>
-                    <h1>Lo que me gusta y más...</h1>
-                </div>
-                <div className='nav'>
-                    <a href='null' className='home'>Inicio</a>
-                    <a href='null' className='contact'>Contacto</a>
-                    <a href='null' className='about'>Más...</a>
-                </div> 
-            </div>       
-        
-        </>
+        <header>
+            <h1>Lo que me gusta y más...</h1>
+            <nav>
+                <ul>
+                    <li>
+                         <NavLink to='/' className='homelink'>Inicio</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/contact' className='contactlink'>Contacto</NavLink>   
+                    </li>
+                    <li>
+                        <NavLink to='/about' className='aboutlink'>Más...</NavLink>  
+                    </li>
+                </ul>
+            </nav>
+        </header>
     );
 }
 
