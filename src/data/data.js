@@ -1,3 +1,4 @@
+// Esta es una array para valores de apriete, no he tenido tiempo de en lazarla//
 export const torques = [
     
     {

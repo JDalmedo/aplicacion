@@ -5,9 +5,12 @@ import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Contact from './pages/Contact/Contact'
 import NotFound from './pages/NotFound/NotFound'
+import axios from 'axios'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import './index.css'
+
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

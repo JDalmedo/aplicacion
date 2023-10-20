@@ -3,6 +3,7 @@ header{
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+    height: 10vh;
 }
 header > nav > ul {
     display: flex;
@@ -10,4 +11,7 @@ header > nav > ul {
 }
 h1 {
     color: aliceblue;
+}
+li{
+    list-style-type: none;
 }
