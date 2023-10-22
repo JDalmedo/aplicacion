@@ -1,0 +1,16 @@
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.notfound{
+    
+    height: auto;
+    width: 700px;
+    margin: 60px;
+
+}

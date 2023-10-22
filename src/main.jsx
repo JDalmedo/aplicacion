@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
-import Contact from './pages/Contact/Contact'
+import Herram from './pages/Herram/Herram.jsx'
 import NotFound from './pages/NotFound/NotFound'
-import axios from 'axios'
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import './index.css'
@@ -19,7 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path='/' element={<App />}>
           <Route index element={<Home />}/>
-          <Route path='/contact' element={<Contact />}/>
+          <Route path='/herram' element={<Herram />}/>
           <Route path='/about' element={<About />}/>
           <Route path='*' element={<NotFound />}/>
         </Route>

@@ -4,9 +4,11 @@ const Footer = () => {
 
 
     return (
-        <footer>
-             <h3>@JDalmedo 2023 - Fundación ONCE</h3>
-        </footer>
+        <>
+            <div className='footer'>
+                <h3>@JDalmedo 2023 - Fundación ONCE</h3>
+            </div>
+        </>
 
 
     );
