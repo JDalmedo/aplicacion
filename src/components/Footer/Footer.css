@@ -1,10 +1,10 @@
-.footer{
+footer{
     display: flex;
     flex-direction: row;
     justify-content:center;
-    align-items: end;
+    align-items: center;
     height: 10vh;
-    margin-bottom: 10px;
+    
 }
 h3{
     color: aliceblue;

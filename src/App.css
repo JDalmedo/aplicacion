@@ -18,15 +18,7 @@ a {
 a:hover{
     color: #ffa500;
 }
-.homelink.active {
-    color: #ffa500;
-}
-.contactlink.active {
-    color:chartreuse;
-}
-.aboutlink.active {
-    color:crimson;
-}        
+
 
 
     

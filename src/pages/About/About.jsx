@@ -20,7 +20,7 @@ const About = () => {
                         <textarea id="msg" name="user_message"></textarea>
                     </li>
                     <li className='button'>
-                        <button type='submit'>Enviar</button>
+                        <button type='submit'>Súbelo</button>
                     </li>
                 </ul>
             </form>

@@ -11,7 +11,8 @@ header > nav > ul {
 }
 h1 {
     color: aliceblue;
-}
+    font-size: 35px;
+}    
 li{
     list-style-type: none;
 }

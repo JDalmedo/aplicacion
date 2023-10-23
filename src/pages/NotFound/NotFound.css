@@ -1,16 +1,14 @@
 .error{
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-
-
 .notfound{
-    
-    height: auto;
-    width: 700px;
+    height: 400px;
+    width: auto;
     margin: 60px;
-
+    
+    
 }

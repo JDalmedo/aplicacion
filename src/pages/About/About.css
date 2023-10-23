@@ -13,8 +13,11 @@ form {
     border-radius: 1em;
 }
   
-ul {
-    list-style: none;
+form ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     margin: 0;
 }
@@ -49,12 +52,14 @@ textarea {
     height: 5em;
 }
   
-.button {
-    padding-left: 120px; 
-}
+
   
 button {
-    margin-left: 0.5em;
+    height: 20px;
+    width: 80px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h2 {
     color: aliceblue;
