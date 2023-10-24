@@ -6,19 +6,11 @@
 html {
     background-color: black;
 }
-
-a {
-    display: flex;
-    flex-direction: row;
-    padding: 10px 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    color: aliceblue;
+@media only screen and (min-width: 500px) {
+    body {
+      width: 100%;
+    }
 }
-a:hover{
-    color: #ffa500;
-}
-
 
 
     

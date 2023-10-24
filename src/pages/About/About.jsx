@@ -4,7 +4,7 @@ const About = () => {
     return (
     <>
         <div className='formulario'>
-            <h2>Desde aquí puede contactarme</h2>
+            <h3>Desde aquí puede contactarme</h3>
             <form action="/my-handling-form-page" method="post">
                 <ul>
                     <li>

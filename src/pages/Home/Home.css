@@ -4,16 +4,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px 100px;
+    gap: 100px;
+    
 }
 
-.home > p{
+p {
     color: aliceblue;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 250px;
 }
-.home > img {
-    height: 300px;
+.home img {
+    height: 250px;
     width: auto;
-    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: rgba(240, 236, 236, 0.672) 0px 5px 15px;
+
 }

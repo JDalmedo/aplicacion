@@ -4,56 +4,42 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 form {
     margin: 0 auto;
     width: 400px; 
-    padding: 1em;
-    border-radius: 1em;
+    padding: 16px;
+    border-radius: 10px;
 }
-  
 form ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0;
-    margin: 0;
 }
-  
-form li + li {
-    margin-top: 1em;
+li {
+    margin-top: 10px;
 }
-  
 label {
     display: flex;
     text-align: right;
     color:aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
-    
 }
   
 input, textarea {
-    font: 1em sans-serif;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif sans-serif;
     width: 300px;
     box-sizing: border-box;
     border: 1px solid aliceblue;
     border-radius: 5px;
 }
-  
-input:focus, textarea:focus {
-    border-color: #dfd1d1;
-}
-  
 textarea {
     vertical-align: top;
-    height: 5em;
+    height: 80px;
 }
-  
-
-  
 button {
     height: 20px;
     width: 80px;
@@ -61,7 +47,6 @@ button {
     font-weight: 600;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h2 {
+h3 {
     color: aliceblue;
-    
 }  
