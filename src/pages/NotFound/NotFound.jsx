@@ -5,7 +5,7 @@ const NotFound = () => {
         <>
             <div className='error'>
                 <img className='notfound' src="/error.png" alt="error" />
-                <h2>Not found</h2>
+                <h2>¡¡¡¡Uy!!!!, me parece que no hay nada.</h2>
              </div>
         </>
     )
