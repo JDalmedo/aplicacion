@@ -7,11 +7,11 @@ const Herram = () => {
                 <div className='container'>
                     <div className='sp500'>
                         <img src="/sp500.png" alt="sp500" />
-                            <a href="https://www.bbvatrader.com/bolsas-y-mercados-indices/indice/s-p-500/SP500/XCME">Trader</a>
+                            <a href="https://www.google.com/finance/?sca_esv=576600514&rlz=1C1UEAD_esES1065ES1069&output=search&source=lnms&sa=X&ved=2ahUKEwie9va9-5GCAxVDT6QEHdY8BysQ0pQJegQIRBAB">Trader</a>
                     </div>
                     <div className='code'>
                         <img src="/code.gif" alt="code" />
-                            <a href="https://thepower.education/bootcamp-fullstack">Código</a>
+                            <a href="https://www.w3schools.com/html/html_scripts.asp">Código</a>
                     </div>
                     <div className='key'>
                         <img src="/key.gif" alt="key" />
@@ -19,7 +19,7 @@ const Herram = () => {
                     </div>
                     <div className='motor'>
                         <img src="/Motor-4-tiempos.gif" alt="motor" />
-                            <NavLink to ="https://youtu.be/7np9rhQmNTU">Motores</NavLink>
+                            <NavLink to ="/motores">Motores</NavLink>
                     </div>
 
                 </div>

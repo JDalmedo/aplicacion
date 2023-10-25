@@ -1,11 +1,10 @@
+import './Motores.css'
+
 const Motores = () => {
     return (
         <>
-            <div className='motor'>
-                
-                
-                <Navlink to = "https://www.solediesel.com/es/motor-hibrido"></Navlink>  
-                
+            <div className='engine'>
+                <video controls src='src/pages/Motores/Funcionamiento.mp4' type='video/mp4'/>  
             </div>
         </>
     );    
