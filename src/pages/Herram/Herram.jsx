@@ -11,7 +11,7 @@ const Herram = () => {
                     </div>
                     <div className='code'>
                         <img src="/code.gif" alt="code" />
-                            <a href="https://www.w3schools.com/html/html_scripts.asp">Código</a>
+                            <NavLink to ="/codigo">Código</NavLink>
                     </div>
                     <div className='key'>
                         <img src="/key.gif" alt="key" />
