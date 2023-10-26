@@ -14,6 +14,7 @@ import './index.css'
 
 
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter basename='/'>
@@ -24,6 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path='/about' element={<About />}/>
           <Route path='*' element={<NotFound />}/>
           <Route path='/motores' element={<Motores />}/>
+          
         </Route>
       </Routes>
     </BrowserRouter>

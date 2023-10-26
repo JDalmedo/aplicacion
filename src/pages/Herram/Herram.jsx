@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import './Herram.css';
 
+
 const Herram = () => {
     return (
         <>
@@ -11,7 +12,7 @@ const Herram = () => {
                     </div>
                     <div className='code'>
                         <img src="/code.gif" alt="code" />
-                            <NavLink to ="/codigo">Código</NavLink>
+                            <a href="https://www.freecodecamp.org/learn/">Código</a>
                     </div>
                     <div className='key'>
                         <img src="/key.gif" alt="key" />
