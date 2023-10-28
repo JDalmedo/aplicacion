@@ -4,19 +4,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    
 }
 p {
+    display: flex;
     margin: 0 150px;
     color: #f0f8ff;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.home img {
-    height: 200px;
-    width: auto;
-    border-radius: 10px;
-    box-shadow: rgba(240, 236, 236, 0.672) 0px 5px 15px;
-
-}
